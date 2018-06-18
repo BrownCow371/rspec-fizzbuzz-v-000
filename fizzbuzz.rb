@@ -3,7 +3,7 @@
 def fizzbuzz(x)
   fizz_3 = x/3
   fizz_5 = x/5
-  if fizz_3.class == Fixnum && fizz_5.class ==Fixnum
+  if (fizz_3.class == Fixnum && fizz_5.class == Fixnum)
     puts"FizzBuzz"
   elsif fizz_3.class ==Fixnum
     puts "Fizz"
@@ -12,4 +12,3 @@ def fizzbuzz(x)
   else nil
   end
 end
-    
